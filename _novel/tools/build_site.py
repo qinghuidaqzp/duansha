@@ -137,7 +137,7 @@ def build():
         if i < len(nums) - 1:
             next_link = f'<a href="{nums[i+1]:03d}.html">下一章 →</a>'
         elif n < TOTAL:
-            next_link = f'<span class="dim">下一章　{esc(SITE["update_note"].split("，")[-1])}</span>'
+            next_link = '<span class="dim">下一章　敬请期待</span>'
         else:
             next_link = '<span class="dim">全书完</span>'
         body = f"""<header class="bar">
