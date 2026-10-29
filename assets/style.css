@@ -1,0 +1,67 @@
+:root{
+  --paper:#f6f1e7; --ink:#2a2622; --muted:#857c71; --line:#ddd3c1; --thread:#b8322a; --card:#efe8da;
+  --fs:19px;
+  --serif:"Songti SC","STSong","Noto Serif CJK SC","Noto Serif SC","Source Han Serif SC","Source Han Serif CN","SimSun",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--paper:#1c1b19;--ink:#ddd5c8;--muted:#8e867a;--line:#35322c;--thread:#d25a4f;--card:#24221f;color-scheme:dark;}
+}
+:root[data-theme="dark"]{--paper:#1c1b19;--ink:#ddd5c8;--muted:#8e867a;--line:#35322c;--thread:#d25a4f;--card:#24221f;color-scheme:dark;}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.9}
+a{color:inherit;text-decoration-color:var(--line);text-underline-offset:.25em}
+a:hover{color:var(--thread);text-decoration-color:var(--thread)}
+.dim{color:var(--muted)}
+.roof{display:block;width:100%;height:28px;margin:0 0 2.2rem}
+.roof path{fill:none;stroke:var(--muted);stroke-width:1.2;vector-effect:non-scaling-stroke}
+.roof line{stroke:var(--thread);stroke-width:1.5;vector-effect:non-scaling-stroke}
+
+/* 顶栏 */
+.bar{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:1rem;
+  padding:.6rem 16px;background:var(--paper);background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line);font-family:var(--sans);font-size:14px}
+.brand{font-family:var(--serif);font-size:17px;letter-spacing:.3em;text-decoration:none}
+.tools{display:flex;align-items:center;gap:.4rem}
+.tools button{font:inherit;color:var(--muted);background:none;border:1px solid var(--line);border-radius:4px;padding:.15rem .5rem;cursor:pointer}
+.tools button:hover{color:var(--thread);border-color:var(--thread)}
+.tools a{color:var(--muted);text-decoration:none;margin-left:.4rem}
+
+/* 目录页 */
+.home{max-width:40rem;margin:0 auto;padding:3rem 16px 2rem}
+.book{font-size:clamp(2.6rem,9vw,3.6rem);font-weight:600;letter-spacing:.5em;margin:0 0 .6rem;line-height:1.3}
+.meta{font-family:var(--sans);font-size:13px;color:var(--muted);margin:.2rem 0}
+.meta.small{font-size:12px}
+.blurb{font-size:17px;line-height:2;margin:1.8rem 0;text-align:justify}
+.cta{display:flex;flex-wrap:wrap;gap:.6rem;margin:1.6rem 0 .6rem}
+.btn{display:inline-block;font-family:var(--sans);font-size:14px;padding:.55rem 1.1rem;border:1px solid var(--ink);border-radius:999px;text-decoration:none}
+.btn.primary{background:var(--ink);color:var(--paper)}
+.btn.primary:hover{background:var(--thread);border-color:var(--thread);color:#fff}
+.toc{margin-top:3rem;border-top:1px solid var(--line)}
+.toc h2{font-size:15px;font-weight:600;letter-spacing:.2em;color:var(--muted);margin:2rem 0 .6rem}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li a{display:flex;justify-content:space-between;gap:1rem;padding:.7rem 0;border-bottom:1px dashed var(--line);text-decoration:none}
+.toc .d{font-family:var(--sans);font-size:12px;color:var(--muted);white-space:nowrap;align-self:center}
+
+/* 章节页 */
+.chapter{max-width:36rem;margin:0 auto;padding:2.4rem 16px 2rem}
+.vol{font-family:var(--sans);font-size:12px;letter-spacing:.3em;color:var(--muted);margin:0}
+.chapter h1{font-size:clamp(1.6rem,6vw,2rem);font-weight:600;letter-spacing:.12em;margin:.4rem 0 .4rem;line-height:1.4}
+.chapter .meta{margin-bottom:2.4rem}
+article{font-size:var(--fs);line-height:2.05;text-align:justify;hyphens:auto}
+article p{margin:0 0 1.05em;text-indent:2em}
+article p.note{text-indent:0;padding-left:.2em}
+article blockquote{margin:1.2em 0;padding:.2em 0 .2em 1em;border-left:2px solid var(--thread);color:var(--muted)}
+hr.knot{border:0;height:1px;width:3rem;margin:2em auto;background:var(--thread)}
+.end{width:3rem;height:2px;background:var(--thread);margin:2.6rem auto 2.2rem}
+.pager{display:flex;justify-content:space-between;align-items:center;gap:.8rem;font-family:var(--sans);font-size:14px;
+  border-top:1px solid var(--line);padding-top:1.2rem}
+.pager a{text-decoration:none}
+
+.site-foot{max-width:40rem;margin:2rem auto 0;padding:1.6rem 16px 3rem;border-top:1px solid var(--line);
+  font-family:var(--sans);font-size:12px;color:var(--muted);text-align:center}
+.site-foot p{margin:.3rem 0}
+.site-foot a{text-decoration:none}
+@media (max-width:420px){ :root{--fs:18px} .book{letter-spacing:.35em} }

@@ -1,0 +1,14 @@
+{
+  "title": "断纱",
+  "site_url": "https://qinghuidaqzp.github.io/duansha/",
+  "blog_url": "https://qinghuidaqzp.github.io/",
+  "blog_name": "soulmate",
+  "update_note": "每日一章，早上八点更新",
+  "blurb": "一座棉纺旧城。七十二岁的老挡车工沈秀英开始忘事——霜降那天凌晨，她出门去赶早班，走进由旧细纱车间改成的咖啡店，把扎辫子的店员叫成一个四十年前的名字。她的女儿、儿子和外孙女，在照护、拆迁与各自的生活里，一根一根接起那些断掉的纱头。",
+  "volumes": [
+    {"name": "第一卷　霜降", "from": 1, "to": 20},
+    {"name": "第二卷　经纬", "from": 21, "to": 40},
+    {"name": "第三卷　落纱", "from": 41, "to": 60}
+  ],
+  "ai_note": "本作由 AI（Claude）写作，每日自动连载。"
+}
