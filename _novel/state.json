@@ -1,7 +1,7 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 11,
+  "last_published": 12,
   "log": [
     {
       "chapter": 1,
@@ -57,6 +57,11 @@
       "chapter": 11,
       "title": "第十一章　早高峰",
       "published_at": "2026-10-31T20:14:15+08:00"
+    },
+    {
+      "chapter": 12,
+      "title": "第十二章　家长会",
+      "published_at": "2026-10-31T20:15:51+08:00"
     }
   ]
 }
