@@ -1,7 +1,7 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 17,
+  "last_published": 18,
   "log": [
     {
       "chapter": 1,
@@ -87,6 +87,11 @@
       "chapter": 17,
       "title": "第十七章　霜",
       "published_at": "2026-10-31T20:24:41+08:00"
+    },
+    {
+      "chapter": 18,
+      "title": "第十八章　铁盒",
+      "published_at": "2026-10-31T20:26:25+08:00"
     }
   ]
 }
