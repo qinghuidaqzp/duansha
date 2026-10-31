@@ -1,7 +1,7 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 13,
+  "last_published": 14,
   "log": [
     {
       "chapter": 1,
@@ -67,6 +67,11 @@
       "chapter": 13,
       "title": "第十三章　交班",
       "published_at": "2026-10-31T20:17:58+08:00"
+    },
+    {
+      "chapter": 14,
+      "title": "第十四章　入户",
+      "published_at": "2026-10-31T20:19:32+08:00"
     }
   ]
 }
