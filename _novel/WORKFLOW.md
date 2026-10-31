@@ -56,7 +56,7 @@ python3 _novel/tools/build_site.py
 git config user.name "qinghuidaqzp"
 git config user.email "qinghuidaqzp@users.noreply.github.com"
 git add -A
-git commit -m "连载：第X章　章名"     # 按会话要求在提交信息末尾附上署名行
+git commit -m "连载：第X章　章名"     # 不要加任何 Co-Authored-By 或 Claude 署名行（仓库主人要求贡献者里不出现 Claude）
 git push origin main
 ```
 - 推送被拒（非快进）：`git pull --rebase origin main` 后再推一次。
