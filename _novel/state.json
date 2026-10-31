@@ -1,7 +1,7 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 7,
+  "last_published": 8,
   "log": [
     {
       "chapter": 1,
@@ -37,6 +37,11 @@
       "chapter": 7,
       "title": "第七章　账",
       "published_at": "2026-10-31T20:07:28+08:00"
+    },
+    {
+      "chapter": 8,
+      "title": "第八章　搬",
+      "published_at": "2026-10-31T20:09:08+08:00"
     }
   ]
 }
