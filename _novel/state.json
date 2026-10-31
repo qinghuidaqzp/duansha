@@ -1,12 +1,17 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 1,
+  "last_published": 2,
   "log": [
     {
       "chapter": 1,
       "title": "第一章　早班",
       "published_at": "2026-10-29T18:05:02+08:00"
+    },
+    {
+      "chapter": 2,
+      "title": "第二章　十一路",
+      "published_at": "2026-10-31T19:58:22+08:00"
     }
   ]
 }
