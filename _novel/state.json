@@ -1,7 +1,7 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 8,
+  "last_published": 9,
   "log": [
     {
       "chapter": 1,
@@ -42,6 +42,11 @@
       "chapter": 8,
       "title": "第八章　搬",
       "published_at": "2026-10-31T20:09:08+08:00"
+    },
+    {
+      "chapter": 9,
+      "title": "第九章　搪瓷缸",
+      "published_at": "2026-10-31T20:10:56+08:00"
     }
   ]
 }
