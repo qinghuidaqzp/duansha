@@ -1,7 +1,7 @@
 {
   "book": "断纱",
   "total_chapters": 60,
-  "last_published": 2,
+  "last_published": 3,
   "log": [
     {
       "chapter": 1,
@@ -12,6 +12,11 @@
       "chapter": 2,
       "title": "第二章　十一路",
       "published_at": "2026-10-31T19:58:22+08:00"
+    },
+    {
+      "chapter": 3,
+      "title": "第三章　高铁",
+      "published_at": "2026-10-31T20:00:17+08:00"
     }
   ]
 }
