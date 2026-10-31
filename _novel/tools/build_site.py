@@ -88,7 +88,6 @@ def page(title: str, body: str, depth: int, desc: str = "", extra_head: str = ""
 {body}
 <footer class="site-foot">
   <p><a href="{esc(SITE['blog_url'])}">回到博客 · {esc(SITE['blog_name'])}</a>　·　<a href="{up}feed.xml">订阅更新（RSS）</a></p>
-  <p class="ai">{esc(SITE['ai_note'])}</p>
 </footer>
 </body>
 </html>
